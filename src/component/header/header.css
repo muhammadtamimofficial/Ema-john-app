@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #1C2B35;
+    height: 80px;
+    padding: 0% 112px;
+    align-items: center;
+}
+
+.menu-link {
+    display: flex;
+    list-style: none;
+}
+
+.menu-link a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+}
+
+.menu-link a:hover {
+    color: orange;
+}
