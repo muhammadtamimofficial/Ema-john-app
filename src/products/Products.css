@@ -1,0 +1,41 @@
+.cards {
+    margin: 7% 20px;
+}
+
+.card {
+    width: 300px;
+    height: 508px;
+    border: 1px solid rgb(211, 201, 201);
+    border-radius: 2%;
+}
+
+.img-containar {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.card img {
+    height: 286px;
+    width: 286px;
+    border-radius: 2%;
+}
+
+.card-info {
+    margin: 0px 10px;
+}
+
+.name {
+    font-size: 22px;
+    margin: 0px;
+}
+
+.shop-button {
+    align-items: center;
+}
+
+.shop-btn {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* align-items: center; */
+}
