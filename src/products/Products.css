@@ -49,6 +49,10 @@
     align-items: center;
 }
 
+.shop-btn span {
+    margin-right: 7px;
+}
+
 .shop-btn {
     /* margin-top: 19px; */
     position: absolute;
