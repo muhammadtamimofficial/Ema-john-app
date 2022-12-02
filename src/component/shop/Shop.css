@@ -8,3 +8,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr)
 }
+
+.order {
+    background-color: #FFE0B3;
+}
+
+.order-title {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    width: 400;
+}

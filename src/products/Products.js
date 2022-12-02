@@ -12,8 +12,10 @@ const Product = (props) => {
                 <div className="card-info">
                     <h3 className='name'>{props.product.name}</h3>
                     <h4>Price :${props.product.price}</h4>
-                    <p>Manufacturer : {props.product.seller}</p>
-                    <p>Rating : {props.product.ratings}</p>
+                    <div className="sub-info">
+                        <p><small>Manufacturer : {props.product.seller}</small></p>
+                        <p><small>Rating : {props.product.ratings}</small></p>
+                    </div>
                 </div>
                 <div className="shop-button">
                     <button className='shop-btn'>Add to card</button>
