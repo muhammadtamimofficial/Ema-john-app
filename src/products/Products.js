@@ -20,7 +20,7 @@ const Product = (props) => {
                     </div>
                 </div>
                 <div className="shop-button">
-                    <button className='shop-btn'>
+                    <button onClick={() => props.addToCard(props.product)} className='shop-btn'>
                         <span>Add to card</span>
                         <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
                     </button>
