@@ -4,7 +4,7 @@ import React from 'react';
 import './Products.css'
 
 const Product = (props) => {
-    console.log(props);
+    // console.log(props);
     return (
         <div className='cards'>
             <div className="card">

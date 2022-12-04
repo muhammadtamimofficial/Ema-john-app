@@ -8,20 +8,3 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr)
 }
-
-.order {
-    background-color: #FFE0B3;
-    color: black;
-}
-
-.order-title {
-    text-align: center;
-    font-size: 25px;
-    width: 400;
-}
-
-.order-info {
-    margin: 5px 5px 5px 40px;
-    font-size: 17px;
-    font-weight: 500;
-}
