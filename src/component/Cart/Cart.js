@@ -7,8 +7,11 @@ const Cart = (Carts) => {
     let shipping = 0;
     let tex = 0;
     let GrandTotal = 0;
+    let quantity = 0;
     for (let cart of Carts.Cart) {
-        totalPrice += cart.price;
+        // console.log(Carts.Cart);
+        quantity = cart.quantity + quantity;
+        totalPrice += cart.price * cart.quantity;
         shipping += cart.shipping;
         tex = totalPrice / 10;
         GrandTotal = totalPrice + shipping + tex;
@@ -20,7 +23,7 @@ const Cart = (Carts) => {
                 <h2 className='order-title'>Order Summary</h2>
                 <br />
                 <div className="order-info">
-                    <p>Selected Items: {Carts.Cart.length}</p>
+                    <p>Selected Items: {quantity}</p>
                     <p>Total Price: ${totalPrice}</p>
                     <p>Shiping charge: ${shipping}</p>
                     <p>Tex: ${tex}</p>
