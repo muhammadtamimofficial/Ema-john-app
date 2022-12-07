@@ -2,7 +2,7 @@ import React from 'react';
 import "./Cart.css"
 
 const Cart = (Carts) => {
-    console.log(Carts.Cart);
+    // console.log(Carts.Cart);
     let totalPrice = 0;
     let shipping = 0;
     let tex = 0;
@@ -26,6 +26,11 @@ const Cart = (Carts) => {
                     <p>Tex: ${tex}</p>
                     <br />
                     <h3>Grand Total: ${GrandTotal}</h3>
+                </div>
+                <div className='order-btns'>
+                    <button className='clear-cart'>Clear Cart</button>
+                    <br />
+                    <button className='reviwe-order'>Reviwe Order</button>
                 </div>
             </div>
         </div>

@@ -19,3 +19,32 @@
     position: sticky;
     top: 0px;
 }
+
+.order-btns {
+    margin: 110px 0;
+    text-align: center;
+}
+
+.order-btns button {
+    width: 90%;
+    margin-top: 10px;
+    height: 50px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.clear-cart {
+    background: #FF3030;
+    border-color: #FF3030;
+}
+
+.reviwe-order {
+    background: #FF9900;
+    border-color: #FF9900;
+}
+
+.order-btns button:hover {
+    border: 1px solid rgb(109, 0, 139);
+}
