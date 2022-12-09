@@ -80,3 +80,7 @@
 p {
     margin: 0px;
 }
+
+.ratings {
+    font-size: smaller;
+}
