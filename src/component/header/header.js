@@ -9,10 +9,10 @@ const Header = () => {
                 <img src={logo} alt="" />
             </div>
             <ul className="menu-link">
-                <li><a href="/order">Order</a></li>
-                <li><a href="/Order reviwe">Order reviwe</a></li>
-                <li><a href="/Manage Inventory">Manage Inventory</a></li>
-                <li><a href="/Log In">Log In</a></li>
+                <li><a href="/Shop">Shop</a></li>
+                <li><a href="/Order">Order</a></li>
+                <li><a href="/Inventory">Manage Inventory</a></li>
+                <li><a href="/Log_In">Log In</a></li>
             </ul>
         </nav>
     );
